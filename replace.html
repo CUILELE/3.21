@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		//replace查找替换字符串方法。
+		var str = '2017/3/20';
+		var str1 = '2017-3-20';
+		//但只能查找到第一位替换。ios与安卓的事件格式不同，有时候需要改
+		document.write(str.replace('/','-'));
+		//下面这方法可以全部 用正则
+		document.write(str.replace(/-/g,'/'));
+		//split
+	</script>
+</html>
